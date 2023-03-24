@@ -20,6 +20,7 @@ An automated Twitter bot that tweets when a specified Twitch channel goes live o
 1. Clone this repository
 
 2. Create a virtual environment and install dependencies
+
 python -m venv venv
 source venv/bin/activate # On Windows, use venv\Scripts\activate
 pip install -r requirements.txt
@@ -29,8 +30,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Run the Flask server:
-python app.py
+1. Run the Flask server
+
 By default, the server will start on port 5000. You can change the port in `app.py` if needed.
 
 2. Subscribe to the Twitch "Stream Changed" webhook topic
