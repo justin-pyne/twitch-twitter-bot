@@ -2,6 +2,8 @@
 
 An automated Twitter bot that tweets when a specified Twitch channel goes live or ends a stream. The bot is implemented using Python, Flask, the Twitch API, and the Twitter API.
 
+Note: This project is not complete yet.
+
 ## Features
 
 - Real-time notifications using Twitch Webhooks
